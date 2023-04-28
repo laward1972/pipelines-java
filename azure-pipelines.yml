@@ -46,3 +46,4 @@ steps:
       
       echo 'Hello world'
       echo $(System.DefaultWorkingDirectory)
+      echo $(Build.SourceDirectory)
